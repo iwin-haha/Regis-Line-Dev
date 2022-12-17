@@ -27,7 +27,7 @@ async function send(e){
     const email = document.getElementById('email').value;    
     // 3. axios post data
     try {
-        const result = await axios.post('http://localhost:3000/api/v1/change-richmenu', {
+        const result = await axios.post('http://localhost:3000/api/v1/link-richmenu', {
             firstname: firstname,
             lastname: lastname,
             email: email,
