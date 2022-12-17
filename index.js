@@ -1,5 +1,5 @@
 const btn = document.getElementById('btn');
-const liffId = '';
+const liffId = '1657742640-DVMO1AN6';
 let userId = '';
 
 function main(){
@@ -17,6 +17,14 @@ function main(){
     });    
 }
 
+const config = {
+    // etc...
+    kit: {
+      // etc...
+      floc: process.env.NODE_ENV === "development",
+    },
+  };
+  
 main()
 
 async function send(e){     
