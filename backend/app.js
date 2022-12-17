@@ -31,7 +31,7 @@ app.get('/api/v1/unlink-richmenu', (req, res) => {
 app.post('/api/v1/change-richmenu', (req, res) => {
     // save data in db
     const { firstname, lastname, email, userId } = req.body;
-    client.linkRichMenuToUser(userId, "richmenu-30eccf0fc2584916361b853a0187f71a");
+    client.linkRichMenuToUser(userId, "richmenu/richmenu-dcc08617f04de0a9d50411a296040dfb");
     res.json({
         data: req.body
     });
