@@ -22,7 +22,7 @@ app.use(cookieParser());
 app.use(cors());
 
 app.get('/api/v1/unlink-richmenu', (req, res) => {    
-    client.unlinkRichMenuFromUser("U74f5c0564a76037c2a6be68779119176");
+    client.unlinkRichMenuFromUser("U9dd31ae6c8871478b99450dbf535aec3");
     res.json({
         data: req.body
     });
